@@ -11,7 +11,7 @@ while true; do
 
     # 启动新的 screen 会话并执行指定命令
     echo "[$timestamp] Starting new screen session for cf..."
-    screen -dmS Quili bash -c 'cd ~/cf-clearance-scraper && npm start'
+    screen -dmS cf bash -c 'cd ~/cf-clearance-scraper && npm start'
 
     # 等待10分钟
     echo "[$timestamp] Waiting for 30 minutes..."
